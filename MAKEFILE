@@ -9,14 +9,14 @@ $(TARGET): $(OBJS)
 	$(CC) $(OBJS) -o $(TARGET)
 
 MAIN.O: MAIN.C
-	$(CC) -c MAIN.C -o MAIN.O
+	$(CC) -x c -c MAIN.C -o MAIN.O
 DATUM.O: DATUM.C
-	$(CC) -c DATUM.C -o DATUM.O
+	$(CC) -x c -c DATUM.C -o DATUM.O
 P98.O: P98.C:
-	$(CC) -c P98.C -o P98.O
+	$(CC) -x c -c P98.C -o P98.O
 
 clean:
-	DEL MAIN.O
-	DEL DATUM.O
-	DEL P98.O
-	DEL KOARMADA.EXE
+	del main.o
+	del datum.o
+	del p98.o
+	del koarmada.exe

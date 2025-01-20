@@ -1,4 +1,6 @@
+#include <stdlib.h>
 #include <stddef.h>
+#include <string.h>
 #include <pc.h>
 #include "P98.H"
 #include "PEGC.H"

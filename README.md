@@ -10,7 +10,7 @@ You can find a pre-made DJGPP dev environment [here](https://www.target-earth.ne
 make
 ```
 
-That's it.
+That's it. You'll need to change the first line of the Makefile if DJGPP isn't installed to `A:¥PROGS¥DJGPP`.
 
 ## Performance
 
