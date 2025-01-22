@@ -12,7 +12,7 @@ MAIN.O: MAIN.C
 	$(CC) -x c -c MAIN.C -o MAIN.O
 DATUM.O: DATUM.C
 	$(CC) -x c -c DATUM.C -o DATUM.O
-P98.O: P98.C:
+P98.O: P98.C
 	$(CC) -x c -c P98.C -o P98.O
 
 clean:
